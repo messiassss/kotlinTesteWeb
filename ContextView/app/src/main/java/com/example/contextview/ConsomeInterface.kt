@@ -7,7 +7,7 @@ import retrofit2.http.GET
 interface ConsomeInterface {
 
 
-    @GET("/cadastros")
+    @GET("/cadastrados")
     fun getList(): Call<List<Usuario>>
 
 
